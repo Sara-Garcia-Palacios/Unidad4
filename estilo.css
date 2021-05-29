@@ -1,0 +1,47 @@
+.chat-bubble { 
+    background-image: radial-gradient(circle at 35.86% -2.78%, #b33d9fb7 0, #1764c9 50%, #c22ca1 100%);
+    border:2px solid #95b12f9f;   
+    font-size:35px;   
+    line-height:1.3em;  
+    margin:10px auto;   
+    padding:10px;   
+    position:relative;   
+    text-align:center;  
+    width:300px;   
+    
+ } 
+.chat-bubble-arrow-border {   
+    border-color: #319cbdc9 transparent transparent transparent; 
+    border-style: solid;   
+    border-width: 10px;   
+    height:0;   
+    width:0;   
+    position:absolute;     
+    bottom:-21px;   
+    left:30px; 
+} 
+.chat-bubble-arrow {   
+    border-color: #d1379ebe transparent transparent transparent; 
+    border-style: solid;  
+    border-width: 10px;  
+    height:0;  
+    width:0;   
+    position:absolute;   
+    bottom:-19px;   
+    left:30px; 
+}
+
+body {
+    background-color: rgb(248, 195, 232);
+  }
+  
+  h1 {
+    color: rgb(33, 35, 155);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
